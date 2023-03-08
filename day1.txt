@@ -1,0 +1,15 @@
+1.React emmet?
+it reduces the writing of extra code in html and css and gives auto completion
+
+2.what is cdn?
+it is a content delivery network it it  distributes content from the origin server
+
+3.what is cross origin ?
+cross origin resource sharing is an http header based mechanism that allows a server to indicate its (port domain schema ) from which a browser should permit loading
+
+4.Async and differ difference?
+Async will load its scripts as soon as page get loaded and without blocking other elements
+but differ will block other and this scripts will get loaded first
+
+
+
