@@ -1,0 +1,29 @@
+{
+  "name": "day1_namaste_react",
+  "version": "1.0.0",
+  "description": " This is a live course",
+  "scripts": {
+    "test": "jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderkarunakar/day_1_namaste_react.git"
+  },
+  "author": "\"karunakar\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderkarunakar/day_1_namaste_react/issues"
+  },
+  "homepage": "https://github.com/coderkarunakar/day_1_namaste_react#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
