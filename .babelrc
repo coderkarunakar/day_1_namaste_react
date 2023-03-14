@@ -1,0 +1,5 @@
+// with options ,with this it removes all the console log in whole project it simply disables all the console log
+{
+    "plugins": [ ["transform-remove-console", 
+    { "exclude": [ "error", "warn"] }] ]
+  }
