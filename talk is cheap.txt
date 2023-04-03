@@ -1,0 +1,56 @@
+Theorey assignment:
+
+1.Is JSX mandatory for React?
+jsx is not a requirement for  using react,using react without jsx is 
+convinient when u dont want to setup the compilation environment
+
+2.Is ES6 mandatory for React?
+ to use react wihtout es6 we need to install node module called create 
+ react  class
+3.{TitleComponent} vs {<TitleComponent/>} vs 
+{<TitleComponent></TitleComponent>} in JSX.
+
+    here {TitleComponent} is used to get the react element which is a 
+    javascript variable.
+    here {<TitleComponent/>} is used to call the react Functional component
+    which is a js function
+    and {<TitleComponent></TitleComponent>} this also works in the same way 
+    as above
+
+4.How can I write comments in JSX?
+{/* */} is the comments in jsx
+
+5.What is <React.Fragment></React.Fragment> and <></>?
+it is used to group or wrap the multiple elements with out adding 
+a extra node to the dom ,it is useful while rendering multiple child 
+components with a single parent component
+
+6.What is Reconciliation in React?
+.it determines what changes need to make in UI
+.it just re renders the small application
+.it is an algorithm that react uses to diff one tree from other tree
+
+7.What is React Fiber?
+. it is an re - implementation of older versions of React Reconciler
+
+8.Why do we need keys in React?
+.it helps to identify which item has been changed ,added,or removed
+
+9.Can we use index as keys in React?
+.it is recomended not to use the index as keys in react because it 
+leads to unstable  component behaviour ,(stable component (the form)
+data is handled by react ,where as the unsatble component the form data
+is handled by Dom it self)
+
+10.What is props in React? Ways to.
+.they are what makes the component re-usable and they pass data from one 
+component to another component
+
+11.What is Config Driven UI?
+.it is a userinterface that is build and configured using a declarative 
+configuration file or datastructure ,rather than using a hardcoded data
+
+
+
+
+
