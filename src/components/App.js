@@ -58,7 +58,35 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import FoodFireLogo from "./Images/Food Fire Log.png";
+import FoodFireLogo from "../../Images/food_villa.png";
+
+//below one is  known as default import(here we dont use curly paranthesis)
+import  Header from "../components/Header";
+// import {Title} from "./components/Header";
+ //here we used curly paranthesis because there exporting way is a bit different and this is known as Named Import(here we will use curly paranthesis)
+
+
+
+// another way to export every  thing from that file is using an *  here star means everything..
+// import * as obj from "./components/Header";
+// obj.Title
+
+
+
+//other way of importing is as follows ,if we used named export in that file
+// import {Title,Header} from "./components/Header";
+
+// if one was a named and other was a default then we can follow like this for importing
+// import Header, {Title} from "./components/Header";
+
+
+//while calling the  file name in import we can use its extension as well
+// import Header, {Title} from "./components/Header.js";
+
+ 
+
+
+
 //React.createElement==>Object ==> HTML(DOM)(this html is rendered by dom)
 
 // creating a simple heading using react using createElement()it means creating an element here h1 is an element takes 3 arguments i.e(1st tag,2nd object(what ever id u give that will be fetched and performs ), 3rd what u want to put into the tag..)tagname,code ,childrend
@@ -156,27 +184,10 @@ const Title =() =>(
 
         // just giving an anchor tag to go to home page when we click on image the page get loaded once..since the anchor tag is in btw img,and we gave / slash means go to home
         <a href="/">
-        <img className="logo" alt="Food Fire Logo" src={FoodFireLogo} />
+        <img className="logo" alt="Food Fire Logo" src={food_villa.png}/>
         </a>
 );
 
-                                // Composing Components
-const Header =()=>{
-        return(
-                <div className="header">
-                     {Title()} 
-{/* like above also we can call or <Title/> like this as our jsx(React element)  */}
-                      <div className="nav-items">
-                        <ul>
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Contact</li>
-                                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                        </ul>
-                      </div>
-                </div>
-       );
-};
 //restaurent card is an functional component which return jsx
 
 
